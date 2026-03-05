@@ -1,0 +1,19 @@
+{
+  "name": "npm-sample-proj",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for dependency update testing",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "4.18.0",
+    "lodash": "4.17.20",
+    "axios": "0.21.1",
+    "moment": "2.29.1"
+  },
+  "devDependencies": {
+    "jest": "27.0.0"
+  }
+}
